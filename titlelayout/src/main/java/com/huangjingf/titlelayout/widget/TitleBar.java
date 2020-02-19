@@ -1,4 +1,4 @@
-package com.newland.pospp.titlelayout.widget;
+package com.huangjingf.titlelayout.widget;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,7 +15,8 @@ import android.widget.TextView;
 import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 
-import com.newland.pospp.titlelayout.R;
+
+import com.huangjingf.titlelayout.R;
 
 import utils.CustomFuncManager;
 import utils.StatusBarUtils;
