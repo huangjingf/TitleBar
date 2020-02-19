@@ -3,17 +3,23 @@
 
 ## 最新版本
 ``` 
-implementation 'com.github.huangjingf:TitleBar:1.0.1'
+implementation 'com.github.huangjingf:titleBar:1.0.2'
 ```
 
 ## 基本使用
 ```
-        <com.newland.pospp.component.widget.TitleBar
-            android:id="@+id/titleLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/titleBar"
-            android:elevation="1dp"
-            app:backFinish="true"
-            app:title="@string/rf_title" />
+<com.huangjingf.titlelayout.widget.TitleBar
+      android:id="@+id/titleLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#fff"
+      android:elevation="1dp"
+      app:backFinish="true"
+      app:title="这是标题" />
+```
+
+## 全局沉浸式
+```
+可写在BaseActivity或BaseFragment中
+StatusBarUtils.statusBarTranslucent(activity);
 ```
