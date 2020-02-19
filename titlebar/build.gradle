@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.huangjingf'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
