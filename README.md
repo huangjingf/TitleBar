@@ -20,6 +20,6 @@ implementation 'com.github.huangjingf:titleBar:1.0.2'
 
 ## 全局沉浸式
 ```
-可写在BaseActivity或BaseFragment中
+//可写在BaseActivity或BaseFragment中
 StatusBarUtils.statusBarTranslucent(activity);
 ```
