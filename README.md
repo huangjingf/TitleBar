@@ -18,6 +18,27 @@ implementation 'com.github.huangjingf:titleBar:1.0.2'
       app:title="这是标题" />
 ```
 
+## 设置菜单点击事件
+```
+//文字
+titleLayout.setOptionsClickListener("保存", new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
+        
+//图片
+ImageView imageView = new ImageView(activity);
+imageView.setImageResource(R.mipmap.pic);
+        titleLayout.setOptionsClickListener(imageView, new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //do something
+            }
+        });
+```
+
 ## 全局沉浸式
 ```
 //可写在BaseActivity或BaseFragment中
