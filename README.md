@@ -12,7 +12,7 @@ implementation 'com.github.huangjingf:titleBar:1.0.2'
       android:id="@+id/titleLayout"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:background="#fff"
+      android:background="#000"
       android:elevation="1dp"
       app:backFinish="true"
       app:title="这是标题" />
