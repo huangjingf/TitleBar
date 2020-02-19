@@ -6,6 +6,12 @@
 implementation 'com.github.huangjingf:titleBar:1.0.2'
 ```
 
+## 前置配置
+需要将应用设置为NoActionBar主题，如修改应用style为
+```
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+```
+
 ## 基本使用
 ```
 <com.huangjingf.titlelayout.widget.TitleBar
