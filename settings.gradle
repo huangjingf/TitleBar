@@ -1,0 +1,2 @@
+include ':titlebar', ':titlelayout'
+rootProject.name='app'
